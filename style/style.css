@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Regular" ;
+    src: url(../fonts/roboto-regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Medium" ;
+    src: url(../fonts/roboto-medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Bold" ;
+    src: url(../fonts/roboto-bold.ttf);
+    font-weight: 700;
+}
+
+.body {
+    font-family: Regular, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1920px;
+}
+
+.header {
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    background-color: #EFEFEF;
+}
+
+.link {
+    text-decoration: none;
+    font-family: Regular;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+}
