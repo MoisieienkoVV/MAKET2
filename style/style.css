@@ -30,6 +30,7 @@
 }
 
 .header {
+    width: 1920px;
     height: 50px;
     background-color: #EFEFEF;
     text-align: center;
@@ -151,9 +152,8 @@
 }
 
 .chair {
-    width: 308px;
-    margin-left: 405px;
-    margin-top: 0px;
+    width: 1920px;
+    height: 604px;
 }
 
 .beauty {
@@ -169,8 +169,6 @@
 h1 {
     width: 308px;
     height: 44px;
-    left: 405px;
-    top: 441px;
     font-family: Bold;
     font-size: 48px;
     line-height: 56px;
@@ -217,6 +215,7 @@ h1 {
     width: 1920px;
     height: 604px;
 }
+
 main {
     width: 1920px;
     height: 610px;
@@ -445,11 +444,11 @@ main {
     height: 130px;
 }
 
-
 .footer-box {
     display: inline-block;
     vertical-align: top;
-    margin-right: 101.5px;
+    width: 255px;
+    height: 253px;
 }
 
 .footer-list {
@@ -484,10 +483,58 @@ main {
     text-align: left;
 }
 
-.item5 {
+.card {
+    width: 45px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 2px solid #F13C6E;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.vector-card {
     display: inline-block;
     vertical-align: top;
 }
+.box11 {
+    background-color:#EFEFEF;
+    height: 64px;
+    margin-top: 0px;
+ }
+
+.container11 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1110px;
+    }
+
+.link11 {
+    color: #828282;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: Regular;
+}
+
+.item11_1 {
+    color: #828282;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: Regular;
+    float: left;
+    padding-top: 25px;
+}
+
+.item11_2 {
+    padding-top: 25px;
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
 
 
 
